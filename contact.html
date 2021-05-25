@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu.css">
+  
+  <title>contact</title>
+</head>
+
+<body>
+    <!----------header---------->
+  <div class="header"> 
+    <div class="photo-perso">
+      <a href="index.html">
+        <img src="photo-profil-CV.jpg" alt="ma photo de profil">
+      </a>
+    </div>
+    <div class="poste-recherché size20px color-blueDark"> 
+        Developeur web et web mobile spécialiste Angular.<br>
+        Designer infographiste<br/>
+        Motion Designer <br/>
+    </div>
+    <div class="info-perso size20px color-blueDark">
+        Sabine LIMAT<br>
+        147 hameau du lac<br>
+        74250 Ville en sallaz<br>
+        Tel: 06 01 02 60 53
+    </div>
+  </div>
+      <!----------Nav---------->
+    <nav class="bg-colorBluegrey">
+        <ul>
+
+          <li class="menu-info">
+              <a href="mesinfos.html">Mes informations</a>
+          </li>
+          <li class="menu-expériences">
+               <a href="experiencespro.html">Mes expériences professionnelles</a>
+          </li>
+          <li class="menu-contact">
+              <a href="contact.html">Formulaire de contact</a>
+          </li>
+        </ul>
+    </nav>  
+      
+      <div class="corps size20px">
+        <h2 class="color-blueDark size20px">Coordonnées</h2>
+      <div>
+        Téléphone : 06 01 02 60 53<br>
+        Mail : limat.sabine@gmail.com<br>
+    <!-----formulaire------>
+        <form>
+          <fieldset>
+            <legend class="color-blueDark">Renseigner les informations</legend>
+            <div>
+              <input type="radio" id="Mr" name="civilité" value="Mr">
+              <label for="Mr" class="inline-label">Monsieur</label>
+          </div>
+          <div>
+              <input type="radio" id="Mme" name="civilité" value="Mme">
+              <label for="Mme" class="inline-label">Madame</label>
+          </div>
+            <div>
+              <label for="name">Nom :</label>
+              <input type="text" name="name" id="name" placeholder="Saisissez votre nom">
+            </div>
+            <div>
+              <label for="email">Mail :</label>
+              <input type="email" name="email" id="email" placeholder="saisissez votre adress mail">
+            </div>
+            <div>
+                <label for="objet">Object :</label>
+                <select name="objet" id="objet">
+                  <option>Question</option>
+                  <option>Autre</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message :</label>
+                <textarea name="message" id="message" cols="30" rows="5"></textarea>
+            </div>
+            <button type="submit">Soumettre</button>
+            <button type="reset">Vider le formulaire</button>
+          </fieldset>
+        </form> 
+      </div>
+  </div>
+      <!----------footer--------->
+      <div class="footer text-center color-withe bg-colorBluegrey">
+        Tous droits réservés &copy;SabWebDDM-2021
+      </div>
+</body>
+</html>

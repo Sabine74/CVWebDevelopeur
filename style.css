@@ -1,0 +1,107 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border:3px solid cadetblue;
+}
+.size20px{
+  font-size: 20px;
+}
+.color-blueDark{
+  color:darkblue;
+}
+.color-lightblue{
+  color: lightblue;
+}
+.color-greenyellow{
+  color: greenyellow;
+}
+.color-withe{
+  color: white;
+}
+.text-center{
+  text-align: center;
+}
+.bg-colorBluegrey{
+  background-color: cadetblue;
+}
+.bg-color-greenyellow{
+  color: greenyellow;
+}
+h2{
+  padding: 0px;
+  margin: 30px 0px;
+  border-bottom: 2px dotted lightblue;
+}
+.colonnegauche{
+  float:left;
+}
+.clear{
+  clear:both;
+}
+ /**header**/
+.header{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.header .photo-perso, .header .info-perso{
+  width: 33.3%;
+}
+.header .photo-perso img{
+  height: 180px;
+}
+.header.poste-recherché{
+  flex: auto;
+}
+ /**corps du site**/
+.corps{
+  padding: 0% 2%;
+} 
+.domainecompétence table{
+  width:100%;
+}
+.domainecompétence table td, .domainecompétence table th{
+  padding: 10px 20px;
+  border: 2px dotted cadetblue;
+  width: 30%;
+}
+.col1{
+  width:20%;
+}
+.col2{
+  width: 80%;
+}
+label{
+  display: block;
+  float: left;
+  width: 20%;
+  text-align: right;
+  padding-right: 20px;
+  background-color:#efefef;
+}
+legend{
+  font-style:italic;
+}
+.buttonContact{
+  margin-left: 22%;
+  width: 200px;
+}
+ /**footer**/
+.footer{
+  padding: 15px;
+  margin-top: 50px;
+}
+ /**responsive design**/
+  @media(max-width:800px){
+    .size20px{
+      font-size: 14px;
+    }
+    .header .photo-perso img{
+      height: 90px;
+    }
+    .col1{
+      width:30%;
+    }
+    .col2{
+      width: 70%;
+    }
+  }
