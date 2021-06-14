@@ -1,6 +1,7 @@
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border:3px solid cadetblue;
+  background: url(texture-light-color.jpg);
 }
 .size20px{
   font-size: 20px;
@@ -9,7 +10,7 @@ body{
   color:darkblue;
 }
 .color-lightblue{
-  color: lightblue;
+  color: rgb(76, 195, 235);
 }
 .color-greenyellow{
   color: greenyellow;
